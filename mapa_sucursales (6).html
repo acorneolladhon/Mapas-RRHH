@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1fdb8bdffe08e0012decdd8265f46416 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1fdb8bdffe08e0012decdd8265f46416" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1fdb8bdffe08e0012decdd8265f46416 = L.map(
+                "map_1fdb8bdffe08e0012decdd8265f46416",
+                {
+                    center: [-34.6, -58.44],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c392675e0bcfb5820490f390cba641ff = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c392675e0bcfb5820490f390cba641ff.addTo(map_1fdb8bdffe08e0012decdd8265f46416);
+        
+    
+            var marker_9b23284c1e35b066dfcf225e4e6a10c9 = L.marker(
+                [-34.603333, -58.379394],
+                {
+}
+            ).addTo(map_1fdb8bdffe08e0012decdd8265f46416);
+        
+    
+        var popup_0b5c92d55e22e802d2694299b4120c99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e9eb4ba7726ed62f8567ec7ca005b28 = $(`<div id="html_7e9eb4ba7726ed62f8567ec7ca005b28" style="width: 100.0%; height: 100.0%;">SUC_1</div>`)[0];
+                popup_0b5c92d55e22e802d2694299b4120c99.setContent(html_7e9eb4ba7726ed62f8567ec7ca005b28);
+            
+        
+
+        marker_9b23284c1e35b066dfcf225e4e6a10c9.bindPopup(popup_0b5c92d55e22e802d2694299b4120c99)
+        ;
+
+        
+    
+    
+            marker_9b23284c1e35b066dfcf225e4e6a10c9.bindTooltip(
+                `<div>
+                     SUC_1 - Microcentro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c5580be427176ce72827c363e080fe18 = L.marker(
+                [-34.543333, -58.475],
+                {
+}
+            ).addTo(map_1fdb8bdffe08e0012decdd8265f46416);
+        
+    
+        var popup_55f4f42ce397e24079896164061a671f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92afe40de2ebb2ac4a6f78195234da57 = $(`<div id="html_92afe40de2ebb2ac4a6f78195234da57" style="width: 100.0%; height: 100.0%;">SUC_2</div>`)[0];
+                popup_55f4f42ce397e24079896164061a671f.setContent(html_92afe40de2ebb2ac4a6f78195234da57);
+            
+        
+
+        marker_c5580be427176ce72827c363e080fe18.bindPopup(popup_55f4f42ce397e24079896164061a671f)
+        ;
+
+        
+    
+    
+            marker_c5580be427176ce72827c363e080fe18.bindTooltip(
+                `<div>
+                     SUC_2 - Saavedra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_75674166bc29bf08153eca5fdab6121c = L.marker(
+                [-34.5745, -58.5945],
+                {
+}
+            ).addTo(map_1fdb8bdffe08e0012decdd8265f46416);
+        
+    
+        var popup_2998145ec37ee8e08a12547cd15280f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a098ac4b0e9556dfd12be06f83f40f00 = $(`<div id="html_a098ac4b0e9556dfd12be06f83f40f00" style="width: 100.0%; height: 100.0%;">SUC_3</div>`)[0];
+                popup_2998145ec37ee8e08a12547cd15280f6.setContent(html_a098ac4b0e9556dfd12be06f83f40f00);
+            
+        
+
+        marker_75674166bc29bf08153eca5fdab6121c.bindPopup(popup_2998145ec37ee8e08a12547cd15280f6)
+        ;
+
+        
+    
+    
+            marker_75674166bc29bf08153eca5fdab6121c.bindTooltip(
+                `<div>
+                     SUC_3 - Loma Hermosa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5c0a3627413f981bcc08be0dd21a3139 = L.marker(
+                [-34.586, -58.422],
+                {
+}
+            ).addTo(map_1fdb8bdffe08e0012decdd8265f46416);
+        
+    
+        var popup_250cde55cdb88c1847fd03fb69ea6574 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04bb633a31e56c0811b9b87ebe4e7f68 = $(`<div id="html_04bb633a31e56c0811b9b87ebe4e7f68" style="width: 100.0%; height: 100.0%;">SUC_4</div>`)[0];
+                popup_250cde55cdb88c1847fd03fb69ea6574.setContent(html_04bb633a31e56c0811b9b87ebe4e7f68);
+            
+        
+
+        marker_5c0a3627413f981bcc08be0dd21a3139.bindPopup(popup_250cde55cdb88c1847fd03fb69ea6574)
+        ;
+
+        
+    
+    
+            marker_5c0a3627413f981bcc08be0dd21a3139.bindTooltip(
+                `<div>
+                     SUC_4 - Caballito
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_074cb2f4a0c084c32dabd1fbd8e1cf55 = L.marker(
+                [-34.625, -58.545],
+                {
+}
+            ).addTo(map_1fdb8bdffe08e0012decdd8265f46416);
+        
+    
+        var popup_85fc89c945fea50a69035208ecdef20f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_684cb2b24bb45756775a0e487eb90d7c = $(`<div id="html_684cb2b24bb45756775a0e487eb90d7c" style="width: 100.0%; height: 100.0%;">SUC_5</div>`)[0];
+                popup_85fc89c945fea50a69035208ecdef20f.setContent(html_684cb2b24bb45756775a0e487eb90d7c);
+            
+        
+
+        marker_074cb2f4a0c084c32dabd1fbd8e1cf55.bindPopup(popup_85fc89c945fea50a69035208ecdef20f)
+        ;
+
+        
+    
+    
+            marker_074cb2f4a0c084c32dabd1fbd8e1cf55.bindTooltip(
+                `<div>
+                     SUC_5 - Villa Devoto
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bbeeaf4e14c546a2cfb1a73ac4d7d3d9 = L.marker(
+                [-34.6355, -58.4395],
+                {
+}
+            ).addTo(map_1fdb8bdffe08e0012decdd8265f46416);
+        
+    
+        var popup_72f1794f7b54bcf1574d76604a859043 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4db769e7c4ac2ba71299ab69f85185b8 = $(`<div id="html_4db769e7c4ac2ba71299ab69f85185b8" style="width: 100.0%; height: 100.0%;">SUC_6</div>`)[0];
+                popup_72f1794f7b54bcf1574d76604a859043.setContent(html_4db769e7c4ac2ba71299ab69f85185b8);
+            
+        
+
+        marker_bbeeaf4e14c546a2cfb1a73ac4d7d3d9.bindPopup(popup_72f1794f7b54bcf1574d76604a859043)
+        ;
+
+        
+    
+    
+            marker_bbeeaf4e14c546a2cfb1a73ac4d7d3d9.bindTooltip(
+                `<div>
+                     SUC_6 - Parque Chacabuco
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7c2c9c00776dd54dc30bd4b771121a5b = L.marker(
+                [-34.7612, -58.3986],
+                {
+}
+            ).addTo(map_1fdb8bdffe08e0012decdd8265f46416);
+        
+    
+        var popup_bf67d01bb38dc22226939b73b7c3465f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dda720f7da3578cc6ce6fbf0a61a6f93 = $(`<div id="html_dda720f7da3578cc6ce6fbf0a61a6f93" style="width: 100.0%; height: 100.0%;">SUC_7</div>`)[0];
+                popup_bf67d01bb38dc22226939b73b7c3465f.setContent(html_dda720f7da3578cc6ce6fbf0a61a6f93);
+            
+        
+
+        marker_7c2c9c00776dd54dc30bd4b771121a5b.bindPopup(popup_bf67d01bb38dc22226939b73b7c3465f)
+        ;
+
+        
+    
+    
+            marker_7c2c9c00776dd54dc30bd4b771121a5b.bindTooltip(
+                `<div>
+                     SUC_7 - Lomas de Zamora
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_30b8ef94fc1dc75e548e4f523e3e46fc = L.marker(
+                [-34.609, -58.397],
+                {
+}
+            ).addTo(map_1fdb8bdffe08e0012decdd8265f46416);
+        
+    
+        var popup_7dbfd407544b29b02d8e20cd2e62f187 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f85383b461aa76aa072b96076dabdde0 = $(`<div id="html_f85383b461aa76aa072b96076dabdde0" style="width: 100.0%; height: 100.0%;">SUC_8</div>`)[0];
+                popup_7dbfd407544b29b02d8e20cd2e62f187.setContent(html_f85383b461aa76aa072b96076dabdde0);
+            
+        
+
+        marker_30b8ef94fc1dc75e548e4f523e3e46fc.bindPopup(popup_7dbfd407544b29b02d8e20cd2e62f187)
+        ;
+
+        
+    
+    
+            marker_30b8ef94fc1dc75e548e4f523e3e46fc.bindTooltip(
+                `<div>
+                     SUC_8 - Congreso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var heat_map_61afa362ea94f6ea7d584e66b7b6a989 = L.heatLayer(
+                [[-34.603333, -58.379394], [-34.543333, -58.475], [-34.5745, -58.5945], [-34.586, -58.422], [-34.625, -58.545], [-34.6355, -58.4395], [-34.7612, -58.3986], [-34.609, -58.397]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 15,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_61afa362ea94f6ea7d584e66b7b6a989.addTo(map_1fdb8bdffe08e0012decdd8265f46416);
+        
+</script>
+</html>
